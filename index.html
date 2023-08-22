@@ -512,27 +512,27 @@
           </ul>
         </div>
 
-        <form class="footer-form" name="footer-form">
-          <div>
-            <label class="label-footer"
-              >Subscribe
+        <div class="footer-form">
+          <p class="label-footer">Subscribe</p>
+
+          <form class="footer-form-tag">
+            <label class="footer-label">
               <input
                 class="input-footer"
                 type="email"
                 placeholder="E-mail"
+                name="user_email_subscribe"
                 id="form-input-footer"
               />
+              <button class="footer-form-button" type="submit">
+                Subscribe
+                <svg class="telegram-icon-svg" width="24" height="24">
+                  <use href="./images/icons.svg#telegram-icon"></use>
+                </svg>
+              </button>
             </label>
-          </div>
-          <div>
-            <button class="footer-form-button" type="submit">
-              Subscribe
-              <svg class="telegram-icon-svg" width="24" height="24">
-                <use href="./images/icons.svg#telegram-icon"></use>
-              </svg>
-            </button>
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>

@@ -594,6 +594,11 @@ background-color: var(--iris);
 
 }
 
+.footer-label {
+    display: flex;
+    align-items: flex-end;
+}
+
 .footer-list-item-link {
     display: flex;
     width: 100%;
@@ -747,35 +752,33 @@ border-radius: 50%;
 .footer-form-button {
     display: flex;
     border: none;
+    min-width: 165px;
+    height: 40px;
     padding: 8px 24px;
+    margin-left: 24px;
+    cursor: pointer;
 justify-content: center;
 align-items: center;
 gap: 16px;
 border-radius: 4px;
-background: var(--iris, #4D5AE5);
+background-color: var(--iris, #4D5AE5);
 color: var(--white, #FFF);
 text-align: center;
-
-/* Button Text */
-font-family: Roboto;
+font-family: "Roboto", sans-serif;
 font-size: 16px;
-font-style: normal;
 font-weight: 500;
-line-height: 24px; /* 150% */
-letter-spacing: 0.64px;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.04em;
 
 }
 
 .label-footer {
     color: var(--white, #FFF);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
 
-/* Body Medium */
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 500;
-line-height: 24px; /* 150% */
-letter-spacing: 0.32px;
 display: flex;
 flex-direction: column;
 }
@@ -785,29 +788,28 @@ flex-direction: column;
     margin-top: 16px;
 border: 1px solid var(--white, #FFF);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-background: transparent;
+background-color: transparent;
     width: 264px;
+    color: var(--white, #FFF);
 height: 40px;
+font-size: 12px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+padding-left: 16px;
 
 }
 
 .input-footer::placeholder {
     color: var(--white, #FFF);
-font-family: Roboto;
-font-size: 12px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 200% */
-letter-spacing: 0.48px;
-padding-left: 16px;
-padding-top: ;
+
+
 }
 
 .footer-form {
     margin-left: auto;
-    display: flex;
-    align-items: flex-end;
-    gap: 24px;
+
+.telegram-icon-svg {
+    margin-left: 16px;
 }
 
 .modal-h {
@@ -987,3 +989,7 @@ input[type="checkbox"]:checked + .agreement-checkbox {
     color: var(--white);
 }
 
+.footer-form-tag {
+    display: flex;
+    gap: 24px;
+}
