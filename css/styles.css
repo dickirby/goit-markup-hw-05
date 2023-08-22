@@ -593,7 +593,7 @@ background-color: var(--iris);
 .footer-label {
     display: flex;
     align-items: flex-end;
-    margin-bottom: 16px; 
+  
 }
 
 .footer-list-item-link {
@@ -691,6 +691,7 @@ letter-spacing: 0.02em;
     top: 50%;
     left: 50%;
     opacity: 1;
+    padding: 72px 24px 24px 24px;
     transform: translate(-50%, -50%) scale(1);
     border-radius: 4px;
     background: var(--dairy);
@@ -773,6 +774,7 @@ letter-spacing: 0.04em;
     color: var(--white, #FFF);
     font-weight: 500;
     font-size: 16px;
+    margin-bottom: 16px;
     line-height: 1.5; 
     letter-spacing: 0.02em;
 
@@ -871,8 +873,8 @@ letter-spacing: 0.48px;
 
 }
 .modal-form-container {
-    padding: 24px;
-    padding-top: 72px;
+   
+  
 }
 
 .modal-form-label {
