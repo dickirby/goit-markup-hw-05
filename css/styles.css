@@ -593,6 +593,7 @@ background-color: var(--iris);
 .footer-label {
     display: flex;
     align-items: flex-end;
+    margin-bottom: 16px; 
 }
 
 .footer-list-item-link {
@@ -986,4 +987,5 @@ input[type="checkbox"]:checked + .agreement-checkbox {
 .footer-form-tag {
     display: flex;
     gap: 24px;
+    align-items: baseline;
 }
